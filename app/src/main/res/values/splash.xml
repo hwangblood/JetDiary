@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.JetDiary.MySplash" parent="Theme.SplashScreen">
+        <!-- val md_theme_light_surface = Color(0xFFFFFBFE) -->
+        <item name="windowSplashScreenBackground">#FFFBFE</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <!-- post theme after splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.JetDiary</item>
+    </style>
+</resources>
