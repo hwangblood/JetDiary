@@ -83,3 +83,35 @@ https://www.mongodb.com/atlas/app-services
 2. Created finished!
 
    ![image-20230828171334946](./.Section-03_MongoDB-Setup.assets/image-20230828171334946.png)
+
+# Install MongoDB Compass
+
+1. Download MongoDB Compass and install it
+
+   https://www.mongodb.com/try/download/compass
+
+2. After installing, Click **Connect** button to copy database connection string![image-20230828223334074](./.Section-03_MongoDB-Setup.assets/image-20230828223334074.png)
+
+3. Create a database user
+
+   ![image-20230828223800711](./.Section-03_MongoDB-Setup.assets/image-20230828223800711.png)
+
+4. Choose a connection method
+
+   ![image-20230828224402706](./.Section-03_MongoDB-Setup.assets/image-20230828224402706.png)
+
+   Choose **Compass** method
+
+   ![image-20230828232932824](./.Section-03_MongoDB-Setup.assets/image-20230828232932824.png)
+
+   Copy the connection string, then open MongoDB Compass
+
+   ![image-20230828224626360](./.Section-03_MongoDB-Setup.assets/image-20230828224626360.png)
+
+5. Paste connection string to Compass, and connect to database
+
+   ![image-20230828225717516](./.Section-03_MongoDB-Setup.assets/image-20230828225717516.png)
+
+6. Connect finished!
+
+   ![image-20230828233134222](./.Section-03_MongoDB-Setup.assets/image-20230828233134222.png)
