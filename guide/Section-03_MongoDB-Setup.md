@@ -115,3 +115,99 @@ https://www.mongodb.com/atlas/app-services
 6. Connect finished!
 
    ![image-20230828233134222](./.Section-03_MongoDB-Setup.assets/image-20230828233134222.png)
+
+# MongoDB Atlas - Enable Google Sign in
+
+## GCP Project (Generate Client ID)
+
+1. open Google Cloud Platfrom in browser, login with Google account
+
+   ![image-20230829002254903](./.Section-03_MongoDB-Setup.assets/image-20230829002254903.png)
+
+2. Create project
+
+   ![image-20230829002354853](./.Section-03_MongoDB-Setup.assets/image-20230829002354853.png)
+
+3. Credentials
+
+   ![image-20230829003247541](./.Section-03_MongoDB-Setup.assets/image-20230829003247541.png)
+
+   OAuth client ID
+
+   ![image-20230829003454821](./.Section-03_MongoDB-Setup.assets/image-20230829003454821.png)
+
+   Configure consent screen
+
+   ![image-20230829003627505](./.Section-03_MongoDB-Setup.assets/image-20230829003627505.png)
+
+   OAuth consent screen
+
+   ![image-20230829003738409](./.Section-03_MongoDB-Setup.assets/image-20230829003738409.png)
+
+   Edit application register, and click on **SAVE AND CONTINUE**
+
+   ![image-20230829004423173](./.Section-03_MongoDB-Setup.assets/image-20230829004423173.png)
+
+   OAuth consent screent, setup finished
+
+   ![image-20230829004538532](./.Section-03_MongoDB-Setup.assets/image-20230829004538532.png)
+
+   publish app
+
+   ![image-20230829004847719](./.Section-03_MongoDB-Setup.assets/image-20230829004847719.png)
+
+## Create OAuth client ID for Android
+
+1. Create OAuth client ID
+
+   ![image-20230829005044945](./.Section-03_MongoDB-Setup.assets/image-20230829005044945.png)
+
+2. Client ID details, Click **Create** button to finish
+
+   ![image-20230829005710128](./.Section-03_MongoDB-Setup.assets/image-20230829005710128.png)
+
+3. Create finished
+
+   ![image-20230829010009699](./.Section-03_MongoDB-Setup.assets/image-20230829010009699.png)
+
+## Create OAuth client ID for Web
+
+1. Create OAuth client ID
+
+   ![image-20230829005044945](./.Section-03_MongoDB-Setup.assets/image-20230829005044945.png)
+
+2. Client ID details, Click **Create** button to finish
+
+   ![image-20230829010125850](./.Section-03_MongoDB-Setup.assets/image-20230829010125850.png)
+
+3. Create finished
+
+   ![image-20230829010212336](./.Section-03_MongoDB-Setup.assets/image-20230829010212336.png)
+
+   
+
+## Enable Google Sign in
+
+1. Edit Google Authentication
+
+   ![image-20230829002712091](./.Section-03_MongoDB-Setup.assets/image-20230829002712091.png)
+
+2. Configure Google Authentication, and Click **Save Draft**
+
+   ![image-20230829011237468](./.Section-03_MongoDB-Setup.assets/image-20230829011237468.png)
+
+3. Draft save finished
+
+   ![image-20230829011315495](./.Section-03_MongoDB-Setup.assets/image-20230829011315495.png)
+
+4. review draft & deploy
+
+   ![image-20230829110053298](./.Section-03_MongoDB-Setup.assets/image-20230829110053298.png)
+
+5. check draft, and deploy
+
+   ![image-20230829110245041](./.Section-03_MongoDB-Setup.assets/image-20230829110245041.png)
+
+6. Google authentication setup successful
+
+   ![image-20230829110624982](./.Section-03_MongoDB-Setup.assets/image-20230829110624982.png)
